@@ -1,19 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import About from './components/About';
+import Skills from './components/Skills';
+import Experience from './components/Experience';
+import Projects from './components/Projects';
+import Education from './components/Education';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi, I'm [Your Name]. I'm a software developer.</p>
-        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
-          Check out my GitHub
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header />
+            <Hero />
+            <About />
+            <Skills />
+            <Experience />
+            <Projects />
+            <Education />
+            <Contact />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
