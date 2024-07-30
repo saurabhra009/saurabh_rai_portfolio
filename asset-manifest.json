@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.435d5fe5.chunk.css",
-    "main.js": "/static/js/main.891964a5.chunk.js",
-    "main.js.map": "/static/js/main.891964a5.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.b45b9353.js",
-    "runtime~main.js.map": "/static/js/runtime~main.b45b9353.js.map",
-    "static/js/2.ca150098.chunk.js": "/static/js/2.ca150098.chunk.js",
-    "static/js/2.ca150098.chunk.js.map": "/static/js/2.ca150098.chunk.js.map",
-    "static/js/3.a29efab2.chunk.js": "/static/js/3.a29efab2.chunk.js",
-    "static/js/3.a29efab2.chunk.js.map": "/static/js/3.a29efab2.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.7d08d8edc8650d0ff2a6d987638cfd93.js": "/precache-manifest.7d08d8edc8650d0ff2a6d987638cfd93.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.435d5fe5.chunk.css.map": "/static/css/main.435d5fe5.chunk.css.map",
-    "static/media/logo.svg": "/static/media/logo.06e73328.svg"
+    "main.css": "/saurabh_rai_portfolio/static/css/main.435d5fe5.chunk.css",
+    "main.js": "/saurabh_rai_portfolio/static/js/main.891964a5.chunk.js",
+    "main.js.map": "/saurabh_rai_portfolio/static/js/main.891964a5.chunk.js.map",
+    "runtime~main.js": "/saurabh_rai_portfolio/static/js/runtime~main.0d6cde7e.js",
+    "runtime~main.js.map": "/saurabh_rai_portfolio/static/js/runtime~main.0d6cde7e.js.map",
+    "static/js/2.ca150098.chunk.js": "/saurabh_rai_portfolio/static/js/2.ca150098.chunk.js",
+    "static/js/2.ca150098.chunk.js.map": "/saurabh_rai_portfolio/static/js/2.ca150098.chunk.js.map",
+    "static/js/3.a29efab2.chunk.js": "/saurabh_rai_portfolio/static/js/3.a29efab2.chunk.js",
+    "static/js/3.a29efab2.chunk.js.map": "/saurabh_rai_portfolio/static/js/3.a29efab2.chunk.js.map",
+    "index.html": "/saurabh_rai_portfolio/index.html",
+    "precache-manifest.8856f6efd4a40e94642f3bcc88427026.js": "/saurabh_rai_portfolio/precache-manifest.8856f6efd4a40e94642f3bcc88427026.js",
+    "service-worker.js": "/saurabh_rai_portfolio/service-worker.js",
+    "static/css/main.435d5fe5.chunk.css.map": "/saurabh_rai_portfolio/static/css/main.435d5fe5.chunk.css.map",
+    "static/media/logo.svg": "/saurabh_rai_portfolio/static/media/logo.06e73328.svg"
   }
 }
