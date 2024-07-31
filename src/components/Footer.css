@@ -1,0 +1,27 @@
+/* Footer.css */
+footer {
+    background-color: #004080;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 1em;
+}
+
+footer ul li a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 0.5em 0 0;
+}
