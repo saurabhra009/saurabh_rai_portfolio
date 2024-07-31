@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/saurabh_rai_portfolio/static/css/main.44f794d0.chunk.css",
-    "main.js": "/saurabh_rai_portfolio/static/js/main.64242624.chunk.js",
-    "main.js.map": "/saurabh_rai_portfolio/static/js/main.64242624.chunk.js.map",
+    "main.js": "/saurabh_rai_portfolio/static/js/main.24a77c57.chunk.js",
+    "main.js.map": "/saurabh_rai_portfolio/static/js/main.24a77c57.chunk.js.map",
     "runtime~main.js": "/saurabh_rai_portfolio/static/js/runtime~main.2684627d.js",
     "runtime~main.js.map": "/saurabh_rai_portfolio/static/js/runtime~main.2684627d.js.map",
     "static/js/2.ca150098.chunk.js": "/saurabh_rai_portfolio/static/js/2.ca150098.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.730e5367.chunk.js": "/saurabh_rai_portfolio/static/js/3.730e5367.chunk.js",
     "static/js/3.730e5367.chunk.js.map": "/saurabh_rai_portfolio/static/js/3.730e5367.chunk.js.map",
     "index.html": "/saurabh_rai_portfolio/index.html",
-    "precache-manifest.eca25a50550764b2db36bafc0f0e424a.js": "/saurabh_rai_portfolio/precache-manifest.eca25a50550764b2db36bafc0f0e424a.js",
+    "precache-manifest.6a447bcc13b874522437b5944c4e0490.js": "/saurabh_rai_portfolio/precache-manifest.6a447bcc13b874522437b5944c4e0490.js",
     "service-worker.js": "/saurabh_rai_portfolio/service-worker.js",
     "static/css/main.44f794d0.chunk.css.map": "/saurabh_rai_portfolio/static/css/main.44f794d0.chunk.css.map"
   }
