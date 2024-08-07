@@ -16,7 +16,7 @@ const Header = () => {
             <div className="header-info">
                 <h1>Saurabh Manoj Rai</h1>
                 <p>Software Engineer</p>
-                <a href="https://www.linkedin.com/in/saurabhrai" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/saurabh-rai-34757a179/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
         </header>
     );
