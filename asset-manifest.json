@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/saurabh_rai_portfolio/static/css/main.8774fd04.css",
-    "main.js": "/saurabh_rai_portfolio/static/js/main.6696dcc8.js",
+    "main.css": "/saurabh_rai_portfolio/static/css/main.65dc7907.css",
+    "main.js": "/saurabh_rai_portfolio/static/js/main.780a590c.js",
     "static/js/453.d8f3567d.chunk.js": "/saurabh_rai_portfolio/static/js/453.d8f3567d.chunk.js",
+    "static/media/Saurabh_Profile.jpeg": "/saurabh_rai_portfolio/static/media/Saurabh_Profile.5f3fb57e7aae3b6789e9.jpeg",
+    "static/media/Saurabh.jpg": "/saurabh_rai_portfolio/static/media/Saurabh.f2b9a4bcf12be27b420a.jpg",
+    "static/media/watch.jpg": "/saurabh_rai_portfolio/static/media/watch.de6835b06b95a3a81833.jpg",
+    "static/media/njit.jpg": "/saurabh_rai_portfolio/static/media/njit.ab6fd44c5488b198a6ae.jpg",
+    "static/media/mumbai.jpg": "/saurabh_rai_portfolio/static/media/mumbai.78d4c7064eed40ceba75.jpg",
+    "static/media/IEEE.jpg": "/saurabh_rai_portfolio/static/media/IEEE.52e039f46fd97039a08c.jpg",
+    "static/media/Hostel.jpg": "/saurabh_rai_portfolio/static/media/Hostel.299035441a8af3764ee9.jpg",
+    "static/media/summarize.jpg": "/saurabh_rai_portfolio/static/media/summarize.c7427e4104b0d3f4a84a.jpg",
+    "static/media/Furniture.jpg": "/saurabh_rai_portfolio/static/media/Furniture.468d27a26741194456ea.jpg",
     "index.html": "/saurabh_rai_portfolio/index.html",
-    "main.8774fd04.css.map": "/saurabh_rai_portfolio/static/css/main.8774fd04.css.map",
-    "main.6696dcc8.js.map": "/saurabh_rai_portfolio/static/js/main.6696dcc8.js.map",
+    "main.65dc7907.css.map": "/saurabh_rai_portfolio/static/css/main.65dc7907.css.map",
+    "main.780a590c.js.map": "/saurabh_rai_portfolio/static/js/main.780a590c.js.map",
     "453.d8f3567d.chunk.js.map": "/saurabh_rai_portfolio/static/js/453.d8f3567d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8774fd04.css",
-    "static/js/main.6696dcc8.js"
+    "static/css/main.65dc7907.css",
+    "static/js/main.780a590c.js"
   ]
 }
