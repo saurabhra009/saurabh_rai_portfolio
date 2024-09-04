@@ -1,24 +1,75 @@
 /* Education.css */
-.education {
+.education-section {
     padding: 4em 2em;
+    background-color: #f9f9f9;
+    text-align: center;
 }
 
-.education h2 {
+.section-title {
     font-size: 2.5em;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.education-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.education-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.education-image img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.education-content {
+    padding: 1.5em;
     text-align: center;
+}
+
+.education-content h3 {
+    font-size: 1.8em;
+    color: #004080;
     margin-bottom: 0.5em;
 }
 
-.school {
-    margin-bottom: 2em;
+.education-content p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 0.5em;
 }
 
-.school h3 {
-    font-size: 1.5em;
-    color: #004080;
-}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .education-grid {
+        grid-template-columns: 1fr;
+    }
 
-.school p {
-    font-size: 1.2em;
-    margin: 0.5em 0;
+    .education-content h3 {
+        font-size: 1.5em;
+    }
+
+    .education-content p {
+        font-size: 0.9em;
+    }
 }
