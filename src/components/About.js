@@ -27,7 +27,7 @@ const About = () => {
                     I am a passionate Full Stack Web Developer with experience in building dynamic web applications and software solutions.
                 </p>
                 {/* Download Resume Button */}
-                <a href="/Saurabh_Rai_Resume_1.pdf" download className="cta-button">
+                <a href="Saurabh_Rai_Resume_1.pdf" download className="cta-button">
                     Download My Resume
                 </a>
             </div>
