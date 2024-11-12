@@ -1,27 +1,50 @@
 /* Footer.css */
-footer {
-    background-color: #004080;
-    color: #fff;
+.footer {
+    background-color: #1a1a1a; /* Dark background for contrast */
+    color: #fff; /* White text for visibility */
     padding: 1em 0;
     text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
-footer ul {
-    list-style-type: none;
+.footer p {
+    margin: 0;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+.footer-links {
+    list-style: none;
     padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
+    gap: 20px; /* Space between icons */
 }
 
-footer ul li {
-    margin: 0 1em;
+.footer-links li {
+    display: inline;
 }
 
-footer ul li a {
-    color: #ffd700;
-    text-decoration: none;
+.footer-icon {
+    color: #fff; /* White color for icons */
+    font-size: 1.5em; /* Increase size for visibility */
+    transition: color 0.3s ease;
+    text-decoration: none; /* Remove underline */
 }
 
-footer p {
-    margin: 0.5em 0 0;
+.footer-icon:hover {
+    color: #ff6600; /* Hover color for icons */
+}
+
+@media (max-width: 768px) {
+    .footer p {
+        font-size: 0.9em;
+    }
+
+    .footer-icon {
+        font-size: 1.2em; /* Adjust icon size for smaller screens */
+    }
 }

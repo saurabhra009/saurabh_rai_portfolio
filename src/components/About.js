@@ -14,9 +14,9 @@ const About = () => {
                 <h2 className="hero-subtitle">
                     <ReactTyped
                         strings={[
-                            'Full Stack Developer',
-                            'ReactJs Developer',
+                            'Full Stack Web Developer',
                             'Software Engineer',
+                            'Critical Thinker',
                         ]}
                         typeSpeed={50}
                         backSpeed={30}
@@ -24,10 +24,10 @@ const About = () => {
                     />
                 </h2>
                 <p className="hero-description">
-                    I am a passionate developer with experience in building dynamic web applications and software solutions.
+                    I am a passionate Full Stack Web Developer with experience in building dynamic web applications and software solutions.
                 </p>
                 {/* Download Resume Button */}
-                <a href="/Saurabh_Rai_Resume.pdf" download className="cta-button">
+                <a href="/Saurabh_Rai_Resume_1.pdf" download className="cta-button">
                     Download My Resume
                 </a>
             </div>
@@ -42,7 +42,7 @@ const About = () => {
                         I am Saurabh Rai, a dedicated and passionate software engineer with a strong background in computer science and engineering. I hold a Master's degree in Computer Science from the New Jersey Institute of Technology and a Bachelor's degree in Information Technology from the University of Mumbai.
                     </p>
                     <p>
-                        My technical expertise spans various domains, including Java, Python, ReactJs, AWS, SQL, Docker, Node.js, and Linux. Throughout my professional journey, I have gained valuable experience in developing scalable and efficient software solutions.
+                        My technical expertise spans various domains, including Java, ReactJs, HTMl, CSS, AWS, SQL, Docker, and Linux. Throughout my professional journey, I have gained valuable experience in developing scalable and efficient software solutions.
                     </p>
                     <p>
                         I thrive in challenging environments that push me to innovate and grow. My goal is to leverage my skills and knowledge to develop cutting-edge solutions that make a difference.

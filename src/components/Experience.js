@@ -9,7 +9,7 @@ const Experience = () => {
             company: '23hourbids',
             role: 'Software Engineer',
             duration: 'Feb 2024 – Present',
-            location: 'California, United States',
+            location: 'Remote, United States',
             responsibilities: [
                 'Lead the complete lifecycle of website development using PHP Laravel Framework, improving user experience by 40% through performance optimizations and responsive design.',
                 'Solely manage the website’s continuous integration and deployment processes, increasing website efficiency by 40%.',

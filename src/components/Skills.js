@@ -1,27 +1,30 @@
 import React from 'react';
 import './Skills.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faJava, faPython, faReact, faAws, faDocker, faNodeJs } from '@fortawesome/free-brands-svg-icons';
+import { faJava, faPhp, faReact, faAws, faDocker, faLaravel, faHtml5, faCss3Alt, faJsSquare } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase, faServer, faNetworkWired, faCode } from '@fortawesome/free-solid-svg-icons';
 
 const Skills = () => {
     const skillsData = [
         { skill: "Java", icon: faJava },
-        { skill: "Python", icon: faPython },
-        { skill: "ReactJs", icon: faReact },
+        { skill: "ReactJS", icon: faReact },
+        { skill: "Java Spring Boot", icon: faJava },
+        { skill: "HTML", icon: faHtml5 },
+        { skill: "CSS", icon: faCss3Alt },
+        { skill: "JavaScript", icon: faJsSquare }, // Using the same Java icon for Spring Boot
+        { skill: "PHP", icon: faPhp },
         { skill: "AWS", icon: faAws },
         { skill: "SQL", icon: faDatabase },
+        { skill: "Laravel", icon: faLaravel },
         { skill: "Docker", icon: faDocker },
-        { skill: "Node.js", icon: faNodeJs },
         { skill: "Linux", icon: faServer },
         { skill: "Networking", icon: faNetworkWired },
         { skill: "Data Structures & Algorithms", icon: faCode }, // Custom icon
-        { skill: "Machine Learning", icon: faPython }, // Custom icon
-        { skill: "Microservices", icon: faPython }, // Custom icon
-        // Additional Skills
-        { skill: "NoSQL Databases", icon: faDatabase }, // Reusing faDatabase for NoSQL
-        { skill: "CI/CD", icon: faCode }, // Reusing faCode for CI/CD
-        { skill: "System Design", icon: faServer }, // Reusing faServer for System Design
+        { skill: "Machine Learning", icon: faCode }, // Custom icon
+        { skill: "Microservices", icon: faServer }, // Custom icon
+        { skill: "NoSQL Databases", icon: faDatabase },
+        { skill: "CI/CD", icon: faCode },
+        { skill: "System Design", icon: faServer },
     ];
 
     return (
