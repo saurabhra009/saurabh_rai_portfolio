@@ -172,14 +172,4 @@
   .profile-photo {
     border-width: 3px;
   }
-
-  .about-me-content {
-    padding: 15px;
-    font-size: 0.9em;
-  }
-
-  .about-me-content p {
-    line-height: 1.4;
-    font-size: 0.85em;
-  }
 }
