@@ -6,7 +6,11 @@ body {
   box-sizing: border-box;
 }
 
-h1, h2, h3, p, ul {
+h1,
+h2,
+h3,
+p,
+ul {
   margin: 0;
   padding: 0;
 }
@@ -26,20 +30,42 @@ a {
   padding: 0 1em;
 }
 
-/* Main content margin to avoid side nav overlap */
+/* Main content styles */
 .main-content {
-  margin-left: 270px; /* This value matches the side-nav width + 20px spacing */
+  margin-left: 270px; /* Matches side-nav width */
   padding: 2em;
   transition: margin-left 0.3s ease;
 }
 
-/* Add responsiveness for smaller screens */
-@media (max-width: 768px) {
-  .side-nav {
-      width: 200px; /* Adjust width for smaller screens */
-  }
-
+/* Responsive styles for smaller screens */
+@media (max-width: 1024px) {
   .main-content {
-      margin-left: 220px; /* Adjust accordingly */
+    margin-left: 220px; /* Adjust for smaller side-nav width */
+    padding: 1.5em;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0; /* Full-width for smaller screens */
+    padding: 1em;
+  }
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 480px) {
+  .main-content {
+    padding: 0.5em; /* Reduce padding for very small screens */
+  }
+}
+
+/* Additional utility styles */
+.hidden-mobile {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .hidden-mobile {
+    display: block;
   }
 }

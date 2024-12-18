@@ -1,122 +1,148 @@
-/* Header.css */
 .side-nav {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 260px;
-    height: 100%;
-    background: linear-gradient(180deg, #1b1b1b, #333);
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 15px;
-    box-sizing: border-box;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 260px;
+  height: 100%;
+  background: linear-gradient(180deg, #1b1b1b, #333);
+  color: #fff;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+  box-sizing: border-box;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  transform: translateX(0); /* Default for large screens */
+}
+
+.side-nav.open {
+  transform: translateX(0); /* Open state for mobile */
 }
 
 .profile-section {
-    text-align: center;
-    margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .profile-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-    border: 3px solid #ffd700;
-    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 3px solid #ffd700;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
 }
 
 .nav-menu {
-    width: 100%;
+  width: 100%;
 }
 
 .nav-menu ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    text-align: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .nav-menu ul li {
-    width: 100%;
-    margin-bottom: 15px;
-    position: relative;
-    transition: transform 0.3s ease;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  transition: transform 0.3s ease;
 }
 
 .nav-menu ul li:hover {
-    transform: translateX(10px);
+  transform: translateX(10px);
 }
 
 .nav-menu ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 12px 0;
-    transition: color 0.3s ease, background-color 0.3s ease;
-    border-radius: 5px;
-    position: relative;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  border-radius: 5px;
+  position: relative;
 }
 
 .nav-menu ul li a:hover {
-    color: #ffd700;
-    background-color: #2a2a2a;
+  color: #ffd700;
+  background-color: #2a2a2a;
 }
 
 .nav-icon {
-    margin-right: 10px; /* Adds spacing between the icon and text */
-    font-size: 20px;
-    color: #ffd700;
-    transition: color 0.3s ease;
+  margin-right: 10px; /* Adds spacing between the icon and text */
+  font-size: 20px;
+  color: #ffd700;
+  transition: color 0.3s ease;
 }
 
 .nav-footer {
-    text-align: center;
-    font-size: 12px;
-    color: #bbb;
-    margin-top: auto;
-    padding: 20px;
-    background-color: #002d72;
-    width: 100%;
-    box-sizing: border-box;
+  text-align: center;
+  font-size: 12px;
+  color: #bbb;
+  margin-top: auto;
+  padding: 20px;
+  background-color: #002d72;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .nav-footer p {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 .nav-footer a {
-    color: #ffd700;
-    text-decoration: none;
-    transition: color 0.3s ease;
+  color: #ffd700;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .nav-footer a:hover {
-    color: #ffa500;
+  color: #ffa500;
+}
+
+/* Hamburger Icon */
+.hamburger-icon {
+  display: none;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  font-size: 24px;
+  color: #ffd700;
+  z-index: 1000;
+  cursor: pointer;
 }
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
-    .side-nav {
-        width: 220px;
-        padding: 10px 0;
-    }
+  .side-nav {
+    width: 220px;
+    transform: translateX(-100%); /* Hidden by default on mobile */
+    position: fixed;
+    z-index: 999;
+  }
 
-    .profile-img {
-        width: 80px;
-        height: 80px;
-    }
+  .side-nav.open {
+    transform: translateX(0); /* Slide in when open */
+  }
 
-    .nav-menu ul li a {
-        font-size: 16px;
-        padding: 8px 0;
-    }
+  .hamburger-icon {
+    display: block;
+  }
+
+  .profile-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .nav-menu ul li a {
+    font-size: 16px;
+    padding: 8px 0;
+  }
 }
