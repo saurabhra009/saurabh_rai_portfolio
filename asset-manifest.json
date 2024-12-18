@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/saurabh_rai_portfolio/static/css/main.cd630c49.css",
+    "main.css": "/saurabh_rai_portfolio/static/css/main.a8f6528a.css",
     "main.js": "/saurabh_rai_portfolio/static/js/main.a15e866d.js",
     "static/js/453.d8f3567d.chunk.js": "/saurabh_rai_portfolio/static/js/453.d8f3567d.chunk.js",
     "static/media/Saurabh_Profile.jpeg": "/saurabh_rai_portfolio/static/media/Saurabh_Profile.5f3fb57e7aae3b6789e9.jpeg",
@@ -12,12 +12,12 @@
     "static/media/summarize.jpg": "/saurabh_rai_portfolio/static/media/summarize.c7427e4104b0d3f4a84a.jpg",
     "static/media/Furniture.jpg": "/saurabh_rai_portfolio/static/media/Furniture.468d27a26741194456ea.jpg",
     "index.html": "/saurabh_rai_portfolio/index.html",
-    "main.cd630c49.css.map": "/saurabh_rai_portfolio/static/css/main.cd630c49.css.map",
+    "main.a8f6528a.css.map": "/saurabh_rai_portfolio/static/css/main.a8f6528a.css.map",
     "main.a15e866d.js.map": "/saurabh_rai_portfolio/static/js/main.a15e866d.js.map",
     "453.d8f3567d.chunk.js.map": "/saurabh_rai_portfolio/static/js/453.d8f3567d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd630c49.css",
+    "static/css/main.a8f6528a.css",
     "static/js/main.a15e866d.js"
   ]
 }
